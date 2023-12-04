@@ -17,13 +17,13 @@ const App = () => {
                         <img src={logo} alt="logo" className="logo" />
                         <span className="brand">ChatGPT</span>
                     </div>
-                    <button className="miBtn">
+                    <button className="midBtn">
                         <img src={addBtn} alt="" className="addBtn" />
                         New Chat
                     </button>
                     <div className="upperSideBottom">
-                        <button className="query"><img src={message} alt="" />What is programming?</button>
-                        <button className="query"><img src={message} alt="" />How to use an API?</button>
+                        <button className="query"><img src={message} alt="" />What is programming ?</button>
+                        <button className="query"><img src={message} alt="" />How to use an API ?</button>
                     </div>
                 </div>
                 <div className="lowerSide">
