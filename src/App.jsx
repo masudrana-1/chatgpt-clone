@@ -4,6 +4,9 @@ import message from './assets/message.svg';
 import home from './assets/home.svg';
 import saved from './assets/bookmark.svg';
 import pro from './assets/rocket.svg';
+import send from './assets/send.svg';
+import user from './assets/user-icon.png';
+import chatGPT from './assets/chatgptLogo.svg';
 
 // import './App.css'
 
@@ -33,7 +36,20 @@ const App = () => {
                 </div>
             </div>
             <div className="main">
-
+                <div className="chats">
+                    <div className="chat">
+                        <img src="" alt="" />
+                        <p className="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, eum. Id accusantium unde ullam itaque reprehenderit in consequatur quod. Cum id minus iste quod inventore voluptate corrupti vel nemo corporis!</p>
+                    </div>
+                </div>
+                <div className="chatFooter">
+                    <div className="inp">
+                        <input type="text" name='' id='' placeholder='Send a message...' />
+                        <button className='send'>
+                            <img src={send} alt="send" />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     );
