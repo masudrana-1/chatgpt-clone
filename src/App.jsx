@@ -38,7 +38,11 @@ const App = () => {
             <div className="main">
                 <div className="chats">
                     <div className="chat">
-                        <img src="" alt="" />
+                        <img src={user} alt="" />
+                        <p className="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, eum. Id accusantium unde ullam itaque reprehenderit in consequatur quod. Cum id minus iste quod inventore voluptate corrupti vel nemo corporis!</p>
+                    </div>
+                    <div className="chat">
+                        <img src={chatGPT} alt="" />
                         <p className="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, eum. Id accusantium unde ullam itaque reprehenderit in consequatur quod. Cum id minus iste quod inventore voluptate corrupti vel nemo corporis!</p>
                     </div>
                 </div>
